@@ -1,0 +1,18 @@
+#topnav2  li{
+	float:left;
+}
+#topnav2  li a{
+	display:block;
+}
+#topnav2  li li a:link, #topnav2  li li a:visited{
+	padding:7px 10px;
+	}
+#topnav2  ul ul{
+	z-index:9999;
+	position:absolute;
+	left:-999em;
+	height:auto;
+	}
+#topnav2  li:hover ul{left:auto;}
+
+ 
